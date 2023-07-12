@@ -1,2 +1,6 @@
-# BancoDeDadosII
-Complemento de Banco de Dados I, esta disciplina nos ensina sobre o banco de dados Não-Relacional através do MongoDB, além de implementação de soluções para inteligência de negócios e big data.
+# Banco De Dados II
+
+-  Professora: Denise Bandeira
+-  Código: 98902-02
+-  Semestre: 2023/1
+-  Nota: 6.7
