@@ -1,0 +1,271 @@
+{
+    "carros": [
+        {
+            "codigo": 1,
+            "placa": "IVK0401",
+            "marca": "Renault",
+            "modelo": "Duster",
+            "ano": 2015,
+            "nome_motorista": "Mateus",
+            "cor": "Vermelho"
+        },
+        {
+            "codigo": 2,
+            "placa": "JAY0422",
+            "marca": "Toyota",
+            "modelo": "Corolla Cross",
+            "ano": 2021,
+            "nome_motorista": "Sonia",
+            "cor": "Preto"
+        },
+        {
+            "codigo": 3,
+            "placa": "QPK9345",
+            "marca": "Fiat",
+            "modelo": "Mobi",
+            "ano": 2019,
+            "nome_motorista": "Carolina",
+            "cor": "Preto"
+        }
+    ],
+    "passageiros": [
+        {
+            "cpf": 11122233344,
+            "nome": "Neymar",
+            "email": "neymarjr@gmail.com",
+            "telefone": 5198456451100,
+            "bairro": "floresta",
+            "meio_pagamento": "pix"
+        },
+        {
+            "cpf": 33322211100,
+            "nome": "ViniciusJR",
+            "email": "viniciusjr@gmail.com",
+            "telefone": 519845648880,
+            "bairro": "cristal",
+            "meio_pagamento": "credito"
+        },
+        {
+            "cpf": 22211133300,
+            "nome": "Ener Valencia",
+            "email": "enervalencia@gmail.com",
+            "telefone": 5112345678000,
+            "bairro": "sarandi",
+            "meio_pagamento": "debito"
+        },
+        {
+            "cpf": 44455566677,
+            "nome": "Alexandre Alemao",
+            "email": "alemaopitanga@gmail.com",
+            "telefone": 2345678250,
+            "bairro": "restinga",
+            "meio_pagamento": "dinheiro"
+        },
+        {
+            "cpf": 99988877766,
+            "nome": "Pedro Henrique",
+            "email": "pedrocuca@gmail.com",
+            "telefone": 5112345678001,
+            "bairro": "menino deus",
+            "meio_pagamento": "cheque"
+        }
+    ],
+    "viagens": [
+        {
+            "id": 12,
+            "kms": 10,
+            "valor": 50,
+            "fk_carros_Codigo": 1
+        },
+        {
+            "id": 23,
+            "kms": 15,
+            "valor": 55,
+            "fk_carros_Codigo": 2
+        },
+        {
+            "id": 24,
+            "kms": 23,
+            "valor": 70,
+            "fk_carros_Codigo": 3
+        },
+        {
+            "id": 25,
+            "kms": 6,
+            "valor": 15,
+            "fk_carros_Codigo": 1
+        },
+        {
+            "id": 27,
+            "kms": 10,
+            "valor": 50,
+            "fk_carros_Codigo": 2
+        },
+        {
+            "id": 28,
+            "kms": 16,
+            "valor": 60,
+            "fk_carros_Codigo": 1
+        },
+        {
+            "id": 29,
+            "kms": 10,
+            "valor": 50,
+            "fk_carros_Codigo": 2
+        },
+        {
+            "id": 30,
+            "kms": 26,
+            "valor": 100,
+            "fk_carros_Codigo": 1
+        },
+        {
+            "id": 31,
+            "kms": 22,
+            "valor": 80,
+            "fk_carros_Codigo": 2
+        },
+        {
+            "id": 32,
+            "kms": 21,
+            "valor": 65,
+            "fk_carros_Codigo": 3
+        }
+    ],
+    "urbanas": [
+        {
+            "bairro_partida": "floresta",
+            "fk_viagens_id": 12
+        },
+        {
+            "bairro_partida": "floresta",
+            "fk_viagens_id": 23
+        },
+        {
+            "bairro_partida": "floresta",
+            "fk_viagens_id": 24
+        },
+        {
+            "bairro_partida": "floresta",
+            "fk_viagens_id": 25
+        },
+        {
+            "bairro_partida": "cristal",
+            "fk_viagens_id": 27
+        },
+        {
+            "bairro_partida": "cristal",
+            "fk_viagens_id": 28
+        },
+        {
+            "bairro_partida": "cristal",
+            "fk_viagens_id": 29
+        },
+        {
+            "bairro_partida": "sarandi",
+            "fk_viagens_id": 30
+        },
+        {
+            "bairro_partida": "sarandi",
+            "fk_viagens_id": 31
+        },
+        {
+            "bairro_partida": "restinga",
+            "fk_viagens_id": 32
+        }
+    ],
+    "interurbanas": [
+        {
+            "taxa_adicional": 3,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 12
+        },
+        {
+            "taxa_adicional": 4,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 23
+        },
+        {
+            "taxa_adicional": 5,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 24
+        },
+        {
+            "taxa_adicional": 2,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 25
+        },
+        {
+            "taxa_adicional": 3,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 27
+        },
+        {
+            "taxa_adicional": 4,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 28
+        },
+        {
+            "taxa_adicional": 3,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 29
+        },
+        {
+            "taxa_adicional": 7,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 30
+        },
+        {
+            "taxa_adicional": 6,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 31
+        },
+        {
+            "taxa_adicional": 5,
+            "cidade_destino": "porto alegre",
+            "fk_viagens_id": 32
+        }
+    ],
+    "usa": [
+        {
+            "fk_passageiros_cpf": 11122233344,
+            "fk_viagens_id": 12
+        },
+        {
+            "fk_passageiros_cpf": 11122233344,
+            "fk_viagens_id": 23
+        },
+        {
+            "fk_passageiros_cpf": 11122233344,
+            "fk_viagens_id": 24
+        },
+        {
+            "fk_passageiros_cpf": 11122233344,
+            "fk_viagens_id": 25
+        },
+        {
+            "fk_passageiros_cpf": 33322211100,
+            "fk_viagens_id": 27
+        },
+        {
+            "fk_passageiros_cpf": 33322211100,
+            "fk_viagens_id": 28
+        },
+        {
+            "fk_passageiros_cpf": 33322211100,
+            "fk_viagens_id": 29
+        },
+        {
+            "fk_passageiros_cpf": 44455566677,
+            "fk_viagens_id": 30
+        },
+        {
+            "fk_passageiros_cpf": 44455566677,
+            "fk_viagens_id": 31
+        },
+        {
+            "fk_passageiros_cpf": 99988877766,
+            "fk_viagens_id": 32
+        }
+    ]
+}
